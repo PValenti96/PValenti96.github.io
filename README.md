@@ -21,10 +21,11 @@ I worked on in CS: 360 Mobile Architecture & Engineering. The original scope of 
 
 https://www.youtube.com/watch?v=eMN6PEHvzRw
 
-<iframe width="560" height="315" 
-src="https://www.youtube.com/watch?v=eMN6PEHvzRw" 
-title="YouTube video player" frameborder="0" 
-allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
-allowfullscreen>
+<h2>Code Review Youtube Video (YouTube)</h2>
+<iframe width="720" height="405"
+  src="https://www.youtube.com/watch?v=eMN6PEHvzRw"
+  title="YouTube video player" frameborder="0"
+  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+  allowfullscreen>
 </iframe>
 
