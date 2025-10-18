@@ -19,13 +19,7 @@ as I have been attedning school full time, then part time since about the fall o
 This portfolio represents the culmination of my coursework, learning, and skill development for CS at SNHU. The culmination of all this were the improvements I made to a previous project that
 I worked on in CS: 360 Mobile Architecture & Engineering. The original scope of the project was a simple weight tracking app. The app allowed for users to login with accounts after setting a username and password. Once logged in they could track their weight from day to day, and compare this information using the list that would populate. Besides the weight tracking per day, they could compare their weight to a goal weight that was entered in the settings menu. Furthermore, the user would be able to add, edit, and delete dates with their correspodning weights as needed. Lastly, tyhe settings menu had the options for setting a goal weight, setting up a phone number for the account, and enabling SMS notifications.
 
-https://www.youtube.com/watch?v=eMN6PEHvzRw
 
-<h2>Code Review Youtube Video (YouTube)</h2>
-<iframe width="720" height="405"
-  src="https://www.youtube.com/watch?v=eMN6PEHvzRw"
-  title="YouTube video player" frameborder="0"
-  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-  allowfullscreen>
-</iframe>
+<h2>Code Review Video (YouTube)</h2>
+[![Watch the video](https://img.youtube.com/vi/eMN6PEHvzRw/hqdefault.jpg)](https://youtu.be/eMN6PEHvzRw)
 
