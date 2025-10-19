@@ -54,6 +54,19 @@ Just as the enhancements covered different areas of expertise, they also covered
 ## Enhancement One
 
 **CSV Export Functionality**
+The CSV export functionality made the data from the app transferable, amrking a siginficant increase int he overall useffulness of the app. The enahnbcment combs through the Weight_Data object, extarcting dates, current weights, and distance from goal weights.
+It then writes this data into a shareable .csv file. By setting a properly labled header row, the file is easily read in other porgeams like Excel or Google. From a plannong perspective, this enhancemnet focuses on user centered design, as it keeps in mind that users may need this data for other apps/uses.
+Additionally, it shows a deep understanding of the data storage system belonging to Android devices. By taking advantage of tools native to Android like its Storage Access Framework users get greater control over what they do with these xported files. The lomgeivty of the app is inmcreased as other users, healthcaren providers, and important parties can anlayze thed ata from this app themsleves without needing the app or suer account.
+
+<img width="552" height="1221" alt="image" src="https://github.com/user-attachments/assets/6408673c-d2dc-443a-92a6-f79bccf1f13e" />
+
+<img width="538" height="1185" alt="image" src="https://github.com/user-attachments/assets/333a5a2d-49f0-43c2-b730-d678b9e61205" />
+
+Click here to see the zipped code and the full accompanying narrative
+
+[https://github.com/PValenti96/CS-499-Computer-Science-Capstone/blob/main/WeightApp%20-%20Enhancement%201.zip](#){.md-button}
+
+
 
 
 
