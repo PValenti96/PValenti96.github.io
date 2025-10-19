@@ -65,13 +65,16 @@ Additionally, it shows a deep understanding of the data storage system belonging
 Click here to see the zipped code and the full accompanying narrative
 
 
-<div class="button-row">
-  <a href="https://github.com/PValenti96/CS-499-Computer-Science-Capstone/blob/main/WeightApp%20-%20Enhancement%201.zip" 
-     class="button">Full Zipped Code</a>
-  
-  <a href="https://github.com/PValenti96/CS-499-Computer-Science-Capstone/blob/main/Enhancement%20One.pdf" 
-     class="button">Enhancement One Full Narrative</a>
-</div>
+<p>
+  <a href="https://github.com/PValenti96/CS-499-Computer-Science-Capstone/blob/main/WeightApp%20-%20Enhancement%201.zip">
+    <img src="https://img.shields.io/badge/Download-Full%20Zipped%20Code-blue?style=for-the-badge" />
+  </a>
+</p>
+<p>
+  <a href="https://github.com/PValenti96/CS-499-Computer-Science-Capstone/blob/main/Enhancement%20One.pdf">
+    <img src="https://img.shields.io/badge/View%20PDF-Enhancement%20One-red?style=for-the-badge" />
+  </a>
+</p>
 
 
 
