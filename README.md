@@ -22,6 +22,11 @@ This portfolio represents the culmination of my coursework, learning, and skill 
 <h2>Code Review Video (YouTube)</h2>  
 [![Watch the video](https://img.youtube.com/vi/eMN6PEHvzRw/hqdefault.jpg)](https://youtu.be/eMN6PEHvzRw)  
 
+
+The original zip code can be found here:
+
+[![Download Full Zipped Code](https://img.shields.io/badge/Download-Full%20Zipped%20Code-blue?style=for-the-badge)](https://github.com/PValenti96/CS-499-Computer-Science-Capstone/blob/main/Weight%20Tracker%20Original.zip)
+
 In my code review, I discussed these details at length, among other aspects of the original project. I would say the most important aspect of the project at the time of the code review was simply the fact that it didn’t work. Something had gone wrong when I ported the project from another computer to my current system, and I ran into issues trying to get it working in Android Studio. While my code review did not provide a great demo of the app’s features, I was able to supplement it by using the static XML screens to explain how it should be working. I spent a great amount of time discussing the login screen, the main menu screen, and the settings screen, as most functions of the app operated around those areas. At first, I was a bit worried about how this would affect the enhancements I had planned, but I decided to turn that apprehension into motivation and look at it as part of the skill showcase to improve the project as much as I could.  
 
 ## Brief Overview of Enhancements
@@ -39,7 +44,7 @@ The first enhancement I went with was adding a button for CSV export functionali
 The second enhancement focused on improving the data visualization for the app, making the presentation of data to the user more in line with what would be useful in a mobile app. Through MPAndroidChart imports, I was able to transform the list of weights into both line and bar charts. The charts were set up simply to track dates and weights, with a goal line representing the goal weight present in each visualization to make for simple comparisons. Instead of showing every day of the calendar between dates, only dates with set weights were present on the chart.  
 
 **E3: SQL Server Database Connectivity (Databases)**  
-The third and final enhancement built upon the existing local SQLite database by implementing actual SQL Server database connectivity. By doing so, instead of the app just relying on user accounts being stored locally on the device, there was now a server that could be used to track them. The app would automatically connect to the server whenever launched, and an admin could then log in to SQL Server Management Studio to perform queries and track users. This SQL Server connectivity made the app highly scalable and more secure, as there was now greater control over who could and could not use the app.  
+The third and final enhancement built upon the existing local SQLite database by implementing actual SQL Server database connectivity. By doing so, instead of the app just relying on user accounts being stored locally on the device, there was now a server that could be used to track them. The app would automatically connect to the server whenever launched, and an admin could then log in to SQL Server Management Studio to monitor. This SQL Server connectivity made the app highly scalable and more secure, as there was now greater control over who could and could not use the app.  
 
 ## Course Outcomes
 
@@ -75,8 +80,8 @@ Click here to see the zipped code and the full accompanying narrative
 
 **Line and Bar Chart Visualization**
 The second enhancement focused on transforming the display of a regualr weight list into a bar and line chart. This enhancement makes sense in the context of a mobile app, as users can analyze data and tresnds quickjly then scrolling throuhg a long list of dates.
-Each chart reads the weight list for the logged in user and plots them to match a weight (y-axis) and date (x-axis) easily. This was faciliated through the use of the MPAndroidChart library, and excellent set of tools for setting up display strcutures in android coding environments. 
-In both, the goal weight is outlined boldy so it's easy to mark whetehr weight gain or loss is needed. This improvement shows the pracital use in a mobile setting for the use of arrays, charts, and mapping data points. 
+Each chart reads the weight list for the logged in user and plots them to match a weight (y-axis) and date (x-axis) easily. This was faciliated through the use of the MPAndroidChart library, and excellent set of tools for setting up displays in android coding environments. 
+In both, the goal weight is outlined boldy so it's easy to mark whetehr weight gain or loss is needed. This improvement shows the pracital use in a mobile setting for the use of arrays, charts, and mapping data points, all vital concepts in data structures.
 The simialiryt between this improvmement and the last one shows that user experience is first and foremost, in the same way that data could be shared via CSV exports it can be efficientily communicated inn a visual manner as well.
 
 <img width="554" height="1202" alt="image" src="https://github.com/user-attachments/assets/2cc58efc-d9b1-4a63-8a00-2c02d65ed259" />
@@ -91,6 +96,27 @@ Click here to see the zipped code and the full accompanying narrative
 [![Download Full Zipped Code](https://img.shields.io/badge/Download-Full%20Zipped%20Code-blue?style=for-the-badge)](https://github.com/PValenti96/CS-499-Computer-Science-Capstone/blob/main/WeightApp%20-%20Enhance%20v2.zip)
 
 [![View Full Narrative PDF](https://img.shields.io/badge/View-Full%20Narrative%20PDF-red?style=for-the-badge)](https://github.com/PValenti96/CS-499-Computer-Science-Capstone/blob/main/Enhancement%20Two.pdf)
+
+## Enheancement Three
+
+**SQL Server Database Connectivity**
+The third and final enhancement upgraded the local SQlite user account control a SQl Server Database instance that is running localy on my PC. What faciliated this was the ConenctionClass I created, which uysed the jTDS JDBC driver, which direcly allows the autnethicationa and stroage of accounts on the server.
+With the app succesfully connecting to the server on launch, admins can verify logins, manage users, syncronize data between the user side on the app and the database, and run queries for different purposes through SQL Management Studio. Besides the obvious positives such as an easy to sue server-client arhcitecture and cenetralized data mangement,
+a big plus is being able to add, edit and rmove accounts to secure the app against potnetial abd actors or anyone wghop lcoates a vpotential vulenrabiliyt in the system. This was a fantastic enahcnement that demonstarted database knwoldge and enginerring that made the app scalable and mroe improtanly, safer.
+
+<img width="1004" height="912" alt="image" src="https://github.com/user-attachments/assets/fe553ed7-fbc8-47d1-925e-5e4614929b6d" />
+
+<img width="1239" height="722" alt="image" src="https://github.com/user-attachments/assets/847cc5d1-772c-4a13-a18e-dca1919a24d0" />
+
+
+Click here to see the zipped code and the full accompanying narrative
+
+[![Download Full Zipped Code](https://img.shields.io/badge/Download-Full%20Zipped%20Code-blue?style=for-the-badge)](https://github.com/PValenti96/CS-499-Computer-Science-Capstone/blob/main/WeightApp%20-%20Enhance%20v3.zip)
+
+[![View Full Narrative PDF](https://img.shields.io/badge/View-Full%20Narrative%20PDF-red?style=for-the-badge)](https://github.com/PValenti96/CS-499-Computer-Science-Capstone/blob/main/Enhancement%20Three.pdf)
+
+
+
 
 
 
