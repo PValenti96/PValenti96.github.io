@@ -13,7 +13,18 @@ CS-499 Capstone Overview for SNHU
 
 ## Introduction
 
-My name is Paolo Valenti. I have an Associate of Science from Tunxis Community College, and with the completion of my program at SNHU, I will have a Bachelor's in Computer Science. It has been a long road, as I have been attending school full time and then part time since about the fall of 2019. To see this all the way to the end and organize my thoughts in this portfolio, I aim to accurately reflect on what I have learned and accomplished. This ePortfolio will ideally illustrate the end result of all my learning, while acting as a starting point for the beginning of my professional career in CS.  
+My name is Paolo Valenti. I have an Associate of Science from Tunxis Community College, and with the completion of my program at SNHU, I will have a Bachelor's in Computer Science. It has been a long road, as I have been attending school full time and then part time since the fall of 2019. To see this all the way to the end and organize my thoughts in this portfolio, I aim to accurately reflect on what I have learned and accomplished. This ePortfolio will ideally illustrate the end result of all my learning, while acting as a starting point for the beginning of my professional career in CS.
+
+## Professional Self Assessment
+
+My time spent in the Computer Science program at SNHU and creating my first ePortfolio has been vital in shaping my professional development and future career goals. I have come a long way from following the weekly modules that helped me create small-scale projects to improving and designing meaningful enhancements to this particular project that reflect my career interest: mobile development.
+
+The program projects varied greatly and taught me many lessons. For example, CS-300: DSA Analysis and Design showed me how data structures can transform work and make large sets of information manageable, such as when I used vector data structures to organize an animal shelter’s pet list. CS-330: Computer Graphics & Visualization taught me the value of visuals when I recreated a static 3D scene based on objects from my desk. In CS-370: Emerging Trends in CS, I explored deep Q-learning and neural networks, where I trained a model to navigate a maze. These experiences taught me that problems often have multiple solutions, and each requires thoughtful application of tools and techniques.
+
+Throughout my courses, I collaborated with classmates in discussion boards and project work, strengthening both my technical knowledge and my ability to communicate effectively with technical and non-technical audiences alike. On the technical side, the program challenged me to grow my expertise with new tools, frameworks, and external libraries. Data structures and algorithms from earlier courses guided my design of enhancements for this app, while software engineering practices pushed me to refine and extend the app beyond its original scope.
+
+Database work became a crucial focus as well. I moved beyond the original local SQLite database by implementing a SQL Server backend. This allowed the app to scale more effectively and introduced features like centralized account management, monitoring, and security improvements. Collectively, these projects and enhancements demonstrate my growth across software engineering, data structures, and databases. My goal with this portfolio is to showcase these skills in a way that highlights my readiness to begin a career in mobile software development.
+
 
 ## Code Review
 
@@ -50,18 +61,16 @@ The third and final enhancement built upon the existing local SQLite database by
 
 Just as the enhancements covered different areas of expertise, they also covered different course outcomes I set out to accomplish for this project. These course outcomes were:  
 
-- Employ strategies for building collaborative environments that enable diverse audiences to support organizational decision making in the field of computer science.  
-- Design, develop, and deliver professional-quality oral, written, and visual communications that are coherent, technically sound, and appropriately adapted to specific audiences and contexts.  
-- Design and evaluate computing solutions that solve a given problem using algorithmic principles and computer science practices and standards appropriate to its solution, while managing the trade-offs involved in design choices.  
-- Demonstrate an ability to use well-founded and innovative techniques, skills, and tools in computing practices for the purpose of implementing computer solutions that deliver value and accomplish industry-specific goals.  
-- Develop a security mindset that anticipates adversarial exploits in software architecture and designs to expose potential vulnerabilities, mitigate design flaws, and ensure privacy and enhanced security of data and resources.  
+- 1. Employ strategies for building collaborative environments that enable diverse audiences to support organizational decision making in the field of computer science.  
+- 2. Design, develop, and deliver professional-quality oral, written, and visual communications that are coherent, technically sound, and appropriately adapted to specific audiences and contexts.  
+- 3. Design and evaluate computing solutions that solve a given problem using algorithmic principles and computer science practices and standards appropriate to its solution, while managing the trade-offs involved in design choices.  
+- 4. Demonstrate an ability to use well-founded and innovative techniques, skills, and tools in computing practices for the purpose of implementing computer solutions that deliver value and accomplish industry-specific goals.  
+- 5. Develop a security mindset that anticipates adversarial exploits in software architecture and designs to expose potential vulnerabilities, mitigate design flaws, and ensure privacy and enhanced security of data and resources.  
 
 ## Enhancement One
 
 **CSV Export Functionality**
-The CSV export functionality made the data from the app transferable, amrking a siginficant increase int he overall useffulness of the app. The enahnbcment combs through the Weight_Data object, extarcting dates, current weights, and distance from goal weights.
-It then writes this data into a shareable .csv file. By setting a properly labled header row, the file is easily read in other porgeams like Excel or Google. From a plannong perspective, this enhancemnet focuses on user centered design, as it keeps in mind that users may need this data for other apps/uses.
-Additionally, it shows a deep understanding of the data storage system belonging to Android devices. By taking advantage of tools native to Android like its Storage Access Framework users get greater control over what they do with these xported files. The lomgeivty of the app is inmcreased as other users, healthcaren providers, and important parties can anlayze thed ata from this app themsleves without needing the app or suer account.
+The CSV export functionality made the data from the app transferable, marking a significant increase in the overall usefulness of the app. The enhancement combs through the Weight_Data object, extracting dates, current weights, and distances from goal weights. It then writes this data into a shareable .csv file. By setting a properly labeled header row, the file can be easily read in other programs like Excel or Google Sheets. From a planning perspective, this enhancement focuses on user-centered design, as it considers that users may need this data for other applications or uses. Additionally, it demonstrates a strong understanding of the data storage systems in Android devices. By leveraging native tools like the Storage Access Framework, users gain greater control over how these exported files are stored and shared. The longevity of the app is increased as healthcare providers, researchers, and other important parties can analyze the data independently without requiring the app or a user account. This improvment helped me meet course outcopme four, where I, "Demonstrated an ability to use well-founded and innovative techniques, skills, and tools in computing practices for the purpose of implementing computer solutions...".
 
 <img width="552" height="1221" alt="image" src="https://github.com/user-attachments/assets/6408673c-d2dc-443a-92a6-f79bccf1f13e" />
 
@@ -79,10 +88,7 @@ Click here to see the zipped code and the full accompanying narrative
 ## Enhancement Two
 
 **Line and Bar Chart Visualization**
-The second enhancement focused on transforming the display of a regualr weight list into a bar and line chart. This enhancement makes sense in the context of a mobile app, as users can analyze data and tresnds quickjly then scrolling throuhg a long list of dates.
-Each chart reads the weight list for the logged in user and plots them to match a weight (y-axis) and date (x-axis) easily. This was faciliated through the use of the MPAndroidChart library, and excellent set of tools for setting up displays in android coding environments. 
-In both, the goal weight is outlined boldy so it's easy to mark whetehr weight gain or loss is needed. This improvement shows the pracital use in a mobile setting for the use of arrays, charts, and mapping data points, all vital concepts in data structures.
-The simialiryt between this improvmement and the last one shows that user experience is first and foremost, in the same way that data could be shared via CSV exports it can be efficientily communicated inn a visual manner as well.
+The second enhancement focused on transforming the display of a standard weight list into bar and line charts. This enhancement fits naturally into a mobile app context, allowing users to quickly analyze data and trends rather than scrolling through a long list of dates. Each chart reads the weight list for the logged-in user and plots it by weight (y-axis) and date (x-axis). This was made possible using the MPAndroidChart library, an excellent tool for implementing visualizations in Android development. In both charts, the goal weight is clearly highlighted, making it easy to see whether progress is moving toward or away from the target. This improvement demonstrates practical applications of arrays, charting, and data mapping—core concepts in data structures. Much like the CSV export, this enhancement prioritizes user experience by presenting information in a clear, actionable way that improves the app’s professional quality. The line and bar chart addition helped me meet course outcomes two and three, "Design, develop, and deliver professional-quality oral, written, and visual communications..." and "Design and evaluate computing solutions that solve a given problem using algorithmic principles and computer science practices...".
 
 <img width="554" height="1202" alt="image" src="https://github.com/user-attachments/assets/2cc58efc-d9b1-4a63-8a00-2c02d65ed259" />
 
@@ -100,9 +106,7 @@ Click here to see the zipped code and the full accompanying narrative
 ## Enheancement Three
 
 **SQL Server Database Connectivity**
-The third and final enhancement upgraded the local SQlite user account control a SQl Server Database instance that is running localy on my PC. What faciliated this was the ConenctionClass I created, which uysed the jTDS JDBC driver, which direcly allows the autnethicationa and stroage of accounts on the server.
-With the app succesfully connecting to the server on launch, admins can verify logins, manage users, syncronize data between the user side on the app and the database, and run queries for different purposes through SQL Management Studio. Besides the obvious positives such as an easy to sue server-client arhcitecture and cenetralized data mangement,
-a big plus is being able to add, edit and rmove accounts to secure the app against potnetial abd actors or anyone wghop lcoates a vpotential vulenrabiliyt in the system. This was a fantastic enahcnement that demonstarted database knwoldge and enginerring that made the app scalable and mroe improtanly, safer.
+The third and final enhancement upgraded the local SQLite user account system to a full SQL Server database instance running on my PC. This was facilitated by the creation of the ConnectionClass, which utilized the jTDS JDBC driver to directly authenticate and store accounts on the server. With the app successfully connecting to the server on launch, administrators can now verify logins, manage users, synchronize data between the app and the database, and run queries through SQL Server Management Studio. Beyond simple client-server architecture, this enhancement added important capabilities: administrators can add, edit, and remove accounts, strengthening security by restricting access to legitimate users and protecting against potential vulnerabilities. This enhancement showcased my database engineering knowledge, while also making the app far more scalable and secure compared to the original local-only implementation. The SQL Server Database connecivity helped me meet course outcomes one and five, "Employ strategies for building collaborative environments..." and "Develop a security mindset that anticipates adversarial exploits in software architecture and designs to expose potential vulnerabilities..."
 
 <img width="599" height="474" alt="image" src="https://github.com/user-attachments/assets/8080c5c2-1f34-4526-b324-3b6d749953f3" />
 
