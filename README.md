@@ -66,9 +66,13 @@ Click here to see the zipped code and the full accompanying narrative
 
 
 <div class="button-row">
-  <a href="https://github.com/PValenti96/CS-499-Computer-Science-Capstone/blob/main/WeightApp%20-%20Enhancement%201.zip" class="button">Full Zipped Code       </a>
-  <a href="https://github.com/PValenti96/CS-499-Computer-Science-Capstone/blob/main/Enhancement%20One.pdf" class="button">Enhancement One Full Narrative</a>
+  <a href="https://github.com/PValenti96/CS-499-Computer-Science-Capstone/blob/main/WeightApp%20-%20Enhancement%201.zip" 
+     class="button">Full Zipped Code</a>
+  
+  <a href="https://github.com/PValenti96/CS-499-Computer-Science-Capstone/blob/main/Enhancement%20One.pdf" 
+     class="button">Enhancement One Full Narrative</a>
 </div>
+
 
 
 
