@@ -104,9 +104,9 @@ The third and final enhancement upgraded the local SQlite user account control a
 With the app succesfully connecting to the server on launch, admins can verify logins, manage users, syncronize data between the user side on the app and the database, and run queries for different purposes through SQL Management Studio. Besides the obvious positives such as an easy to sue server-client arhcitecture and cenetralized data mangement,
 a big plus is being able to add, edit and rmove accounts to secure the app against potnetial abd actors or anyone wghop lcoates a vpotential vulenrabiliyt in the system. This was a fantastic enahcnement that demonstarted database knwoldge and enginerring that made the app scalable and mroe improtanly, safer.
 
-<img width="1600" height="762" alt="image" src="https://github.com/user-attachments/assets/0975bd81-dbcb-4b57-8bf5-c26bc24cb4ae" />
+<img width="3200" height="762" alt="image" src="https://github.com/user-attachments/assets/0975bd81-dbcb-4b57-8bf5-c26bc24cb4ae" />
 
-<img width="1600" height="349" alt="image" src="https://github.com/user-attachments/assets/9093a848-33ad-4f91-923b-70bf3d3a7e23" />
+<img width="3200" height="349" alt="image" src="https://github.com/user-attachments/assets/9093a848-33ad-4f91-923b-70bf3d3a7e23" />
 
 
 Click here to see the zipped code and the full accompanying narrative
