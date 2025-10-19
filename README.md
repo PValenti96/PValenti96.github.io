@@ -62,12 +62,35 @@ Additionally, it shows a deep understanding of the data storage system belonging
 
 <img width="538" height="1185" alt="image" src="https://github.com/user-attachments/assets/333a5a2d-49f0-43c2-b730-d678b9e61205" />
 
-Click here to see the zipped code and the full accompanying narrative
 
+
+Click here to see the zipped code and the full accompanying narrative
 
 [![Download Full Zipped Code](https://img.shields.io/badge/Download-Full%20Zipped%20Code-blue?style=for-the-badge)](https://github.com/PValenti96/CS-499-Computer-Science-Capstone/blob/main/WeightApp%20-%20Enhancement%201.zip)
 
 [![View Full Narrative PDF](https://img.shields.io/badge/View-Full%20Narrative%20PDF-red?style=for-the-badge)](https://github.com/PValenti96/CS-499-Computer-Science-Capstone/blob/main/Enhancement%20One.pdf)
+
+
+## Enhancement Two
+
+**Line and Bar Chart Visualization**
+The second enhancement focused on transforming the display of a regualr weight list into a bar and line chart. This enhancement makes sense in the context of a mobile app, as users can analyze data and tresnds quickjly then scrolling throuhg a long list of dates.
+Each chart reads the weight list for the logged in user and plots them to match a weight (y-axis) and date (x-axis) easily. This was faciliated through the use of the MPAndroidChart library, and excellent set of tools for setting up display strcutures in android coding environments. 
+In both, the goal weight is outlined boldy so it's easy to mark whetehr weight gain or loss is needed. This improvement shows the pracital use in a mobile setting for the use of arrays, charts, and mapping data points. 
+The simialiryt between this improvmement and the last one shows that user experience is first and foremost, in the same way that data could be shared via CSV exports it can be efficientily communicated inn a visual manner as well.
+
+<img width="554" height="1202" alt="image" src="https://github.com/user-attachments/assets/2cc58efc-d9b1-4a63-8a00-2c02d65ed259" />
+
+<img width="549" height="1194" alt="image" src="https://github.com/user-attachments/assets/cb4ff14a-8d90-4f10-8b53-d54532db980f" />
+
+<img width="554" height="302" alt="image" src="https://github.com/user-attachments/assets/c3bfac3e-0447-4902-9168-88aee88260d8" />
+
+
+Click here to see the zipped code and the full accompanying narrative
+
+[![Download Full Zipped Code](https://img.shields.io/badge/Download-Full%20Zipped%20Code-blue?style=for-the-badge)](https://github.com/PValenti96/CS-499-Computer-Science-Capstone/blob/main/WeightApp%20-%20Enhance%20v2.zip)
+
+[![View Full Narrative PDF](https://img.shields.io/badge/View-Full%20Narrative%20PDF-red?style=for-the-badge)](https://github.com/PValenti96/CS-499-Computer-Science-Capstone/blob/main/Enhancement%20Two.pdf)
 
 
 
